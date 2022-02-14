@@ -24,3 +24,11 @@ export function useFetch<T= unknown>(url: string, options?: AxiosRequestConfig )
       });
       return {data,isFetching,error};
 }
+
+/*
+function APP(){
+    const {
+        data : repositories,
+        isFetching
+      } = useFetch<Repository[]>('users/g-bolsoni/repos')
+}*/
